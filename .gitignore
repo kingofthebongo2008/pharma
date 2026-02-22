@@ -1,0 +1,25 @@
+# .NET build output
+bin/
+obj/
+
+# Elm build output and cache
+src/Frontend/public/elm.js
+src/Frontend/elm-stuff/
+
+# Docker volumes (if mounted locally)
+pgdata/
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.user
+
+# Claude
+.claude/
